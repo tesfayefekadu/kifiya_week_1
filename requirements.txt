@@ -1,2 +1,8 @@
-pandas
-TextBlob
+import pandas as pd
+import talib
+import pynance as pn
+import seaborn as sns
+import matplotlib.pyplot as plt
+from textblob import TextBlob
+from datetime import datetime
+import numpy as np
