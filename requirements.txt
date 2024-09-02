@@ -6,3 +6,7 @@ import matplotlib.pyplot as plt
 from textblob import TextBlob
 from datetime import datetime
 import numpy as np
+import nltk
+from nltk.sentiment import SentimentIntensityAnalyzer
+from sklearn.preprocessing import MinMaxScaler
+from scipy.stats import pearsonr
