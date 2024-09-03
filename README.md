@@ -1,5 +1,7 @@
-Stock Price and News Sentiment Analysis
+                                  Stock Price and News Sentiment Analysis
+
 Project Overview
+
 This project analyzes the relationship between stock price movements and news sentiment. The main objective is to determine if there is any correlation between the sentiment of news articles related to a specific stock and the stock's daily returns. The analysis is conducted using historical stock price data and sentiment analysis of news headlines.
 
 Data Description
