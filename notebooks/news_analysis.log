@@ -1,0 +1,61 @@
+2024-11-15 11:28:41,539 - root - INFO - Loading data from file: ../data/raw_analyst_ratings.csv
+2024-11-15 11:28:46,568 - root - INFO - Data loaded successfully with 1407328 rows and 6 columns
+2024-11-15 11:28:56,623 - root - INFO - Analyzing headline length statistics.
+2024-11-15 11:28:57,074 - root - INFO - Headline length analysis complete.
+2024-11-15 11:30:20,191 - root - INFO - Counting articles per publisher.
+2024-11-15 11:30:20,275 - root - INFO - Article count per publisher complete.
+2024-11-15 11:30:53,845 - root - INFO - Analyzing publication dates.
+2024-11-15 11:30:55,338 - root - INFO - Publication dates analysis complete.
+2024-11-15 11:31:32,949 - root - INFO - Plotting publication trends.
+2024-11-15 11:31:33,130 - root - INFO - Publication trends plotted successfully.
+2024-11-15 11:31:40,037 - root - INFO - Plotting publication trends.
+2024-11-15 11:31:40,156 - root - INFO - Publication trends plotted successfully.
+2024-11-15 11:33:40,408 - root - INFO - Loading data from file: ../data/raw_analyst_ratings.csv
+2024-11-15 11:33:45,575 - root - INFO - Data loaded successfully with 1407328 rows and 6 columns
+2024-11-15 11:33:52,423 - root - INFO - Analyzing headline length statistics.
+2024-11-15 11:33:52,812 - root - INFO - Headline length analysis complete.
+2024-11-15 11:33:54,886 - root - INFO - Counting articles per publisher.
+2024-11-15 11:33:54,994 - root - INFO - Article count per publisher complete.
+2024-11-15 11:33:58,950 - root - INFO - Analyzing publication dates.
+2024-11-15 11:34:00,213 - root - INFO - Publication dates analysis complete.
+2024-11-15 11:34:03,455 - root - INFO - Plotting publication trends.
+2024-11-15 11:34:03,580 - root - INFO - Publication trends plotted successfully.
+2024-11-15 11:34:52,276 - root - INFO - Plotting publication trends.
+2024-11-15 11:34:52,395 - root - INFO - Publication trends plotted successfully.
+2024-11-15 11:37:08,862 - root - INFO - Loading data from file: ../data/raw_analyst_ratings.csv
+2024-11-15 11:37:14,156 - root - INFO - Data loaded successfully with 1407328 rows and 6 columns
+2024-11-15 11:37:17,853 - root - INFO - Analyzing headline length statistics.
+2024-11-15 11:37:18,243 - root - INFO - Headline length analysis complete.
+2024-11-15 11:37:19,799 - root - INFO - Counting articles per publisher.
+2024-11-15 11:37:19,886 - root - INFO - Article count per publisher complete.
+2024-11-15 11:37:22,646 - root - INFO - Analyzing publication dates.
+2024-11-15 11:37:23,914 - root - INFO - Publication dates analysis complete.
+2024-11-15 11:37:28,934 - root - INFO - Plotting publication trends.
+2024-11-15 11:37:29,051 - root - INFO - Publication trends plotted successfully.
+2024-11-15 11:38:54,388 - root - INFO - Plotting publication trends.
+2024-11-15 11:38:54,508 - root - INFO - Publication trends plotted successfully.
+2024-11-15 11:39:05,085 - root - INFO - Loading data from file: ../data/raw_analyst_ratings.csv
+2024-11-15 11:39:10,429 - root - INFO - Data loaded successfully with 1407328 rows and 6 columns
+2024-11-15 11:39:13,847 - root - INFO - Plotting publication trends.
+2024-11-15 11:39:14,077 - root - INFO - Publication trends plotted successfully.
+2024-11-15 11:39:28,346 - root - INFO - Loading data from file: ../data/raw_analyst_ratings.csv
+2024-11-15 11:39:33,310 - root - INFO - Data loaded successfully with 1407328 rows and 6 columns
+2024-11-15 11:39:34,684 - root - INFO - Analyzing headline length statistics.
+2024-11-15 11:39:35,120 - root - INFO - Headline length analysis complete.
+2024-11-15 11:39:35,153 - root - INFO - Counting articles per publisher.
+2024-11-15 11:39:35,246 - root - INFO - Article count per publisher complete.
+2024-11-15 11:39:35,379 - root - INFO - Analyzing publication dates.
+2024-11-15 11:39:36,687 - root - INFO - Publication dates analysis complete.
+2024-11-15 11:41:00,211 - root - INFO - Performing sentiment analysis on column: headline
+2024-11-15 11:43:54,555 - root - INFO - Sentiment analysis complete.
+2024-11-15 11:48:21,621 - root - INFO - Performing topic modeling on column: headline
+2024-11-15 12:20:53,023 - root - INFO - Topic modeling complete. 5 topics identified.
+2024-11-15 16:24:12,827 - root - INFO - Analyzing distribution of publication times throughout the day.
+2024-11-15 16:24:13,024 - root - INFO - Distribution analysis by hour complete.
+2024-11-15 16:24:13,344 - root - INFO - The peak publication hour is 0:00.
+2024-11-15 16:24:13,347 - root - INFO - Identifying days with unusually high publication frequency.
+2024-11-15 16:24:14,025 - root - INFO - Publication spikes identified: 85 days.
+2024-11-15 16:25:17,657 - root - INFO - Analyzing contribution by different publishers.
+2024-11-15 16:25:17,752 - root - INFO - Top 10 publishers analysis complete.
+2024-11-15 16:25:17,931 - root - INFO - Analyzing unique domains in publisher names.
+2024-11-15 16:25:18,768 - root - INFO - Publisher domain analysis complete.
