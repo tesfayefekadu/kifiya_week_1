@@ -1,53 +1,76 @@
-                                  Stock Price and News Sentiment Analysis
+# Financial-news-Stock-Analysis
 
-Project Overview
+## Project Overview
+This project is focused on analyzing a large corpus of financial news data to discover correlations between news sentiment and stock market movements. 
 
-This project analyzes the relationship between stock price movements and news sentiment. The main objective is to determine if there is any correlation between the sentiment of news articles related to a specific stock and the stock's daily returns. The analysis is conducted using historical stock price data and sentiment analysis of news headlines.
+### Main Objectives
+1. Perform sentiment analysis on financial news headlines.
+2. Establish statistical correlations between news sentiment and stock price movements.
+3. Provide actionable insights and investment strategies based on your analysis.
 
-Data Description
-1. Stock Price Data
-Source: Historical stock price data for META.
-Columns:
-Date: The date of the stock price record.
-Open: The opening price of the stock on the given date.
-High: The highest price of the stock on the given date.
-Low: The lowest price of the stock on the given date.
-Close: The closing price of the stock on the given date.
-Volume: The number of shares traded on the given date.
-2. News Data
-Source: News headlines related to META.
-Columns:
-Date: The publication date of the news article.
-Headline: The text of the news headline.
-Sentiment Score: The sentiment score assigned to each headline (positive, negative, or neutral).
 
-Analysis Workflow
-Data Loading:
+## Folder Structure
 
-Load stock price data and news headlines data into pandas DataFrames.
-Data Preprocessing:
+```plaintext
+├── .vscode/
+│   └── settings.json  
+├── app/
+│   └── app.py     # streamlit app         
+├── .github/
+│   └── workflows/
+│       └── unittests.yml      # GitHub Actions
+├── .gitignore                 # directories to be ignored by git
+├── requirements.txt           # contains dependencies for the project
+├── README.md                  
+├── src/
+│   ├── __init__.py
+│   
+├── notebooks/
+│   ├── __init__.py 
+├── tests/
+└── scripts/
+    ├── __init__.py
+    ├── eda_analysis.py # Script for financial news analysis 
+    ├── financial_analyzer.py # script for the stock data analysis    
+    ├── sentiment_analysis.py # script for financial news and stock price integration analysis
+    └── README.md             # Documentation for the scripts directory
+```
+## Setup
 
-Convert date columns to datetime format.
-Align stock prices and news data by date.
-Calculate daily stock returns.
-Sentiment Analysis:
+1. Clone the repository:
+   ```
+   git clone 
+   cd KIFIYA_WEEK_1
+   ```
 
-Perform sentiment analysis on news headlines using TextBlob or NLTK.
-Assign a sentiment score (positive, negative, neutral) to each headline.
-Technical Indicators:
+2. Create a virtual environment (optional but recommended):
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
 
-Calculate technical indicators such as Simple Moving Averages (SMA) and Relative Strength Index (RSI) using TA-Lib.
-Correlation Analysis:
+3. Install the required packages:
+   ```
+   pip install -r requirements.txt
+   ```
 
-Analyze the correlation between news sentiment scores and daily stock returns.
-Generate visualizations to understand the relationship between sentiment and stock price movements.
+## Running the Streamlit App
 
-Visualizations
-Daily Stock Returns:
+To run the Streamlit app locally:
 
-Visual representation of the percentage change in stock prices over time.
-Correlation between News Sentiment and Stock Returns:
+1. Ensure you're in the project directory and your virtual environment is activated (if you're using one).
 
-Scatter plot showing the relationship between sentiment scores and daily stock returns.
-Conclusion
-The analysis reveals that there is no strong or consistent correlation between news sentiment and daily stock returns for META. This suggests that other factors might have a more significant impact on stock price movements.
+2. Run the following command:
+   ```
+   streamlit run app.py
+   ```
+
+## Data Sources
+
+- Historical stock data: Retrieved from Yahoo Finance
+- News sentiment data: Collected from financial news sources 
+
+
+## Contact
+
+For any questions or feedback, please open an issue on this GitHub repository.
